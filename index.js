@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express=require('express');
 const app=express();
-require('dotenv').config();
 const ConnectDb=require('./config/db');
 const PORT = (process.env.PORT)||3000;
 const route=require('./route/FinanceRoute');
